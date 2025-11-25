@@ -1,22 +1,21 @@
 body {
-  background: lavender;
+  background: white;
   max-width: 600px;
   margin: 0 auto;
   padding: 1em;
-  font-family: Times New Roman;
+  font-family: Roboto Mono, italics;
   font-size: 14px;
   line-height: 1.6;
   color: black;
 }
 
 h1, h2, h3 {
-  font-family: Times New Roman;
-  font-size: 16px;
+  font-family: Roboto Mono, italics;
+  font-size: 14px;
 }
 
 h1 {
   text-align: center;
-  font-size: 16px;
 }
 
 a {
