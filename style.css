@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 150px;
-  background-color: #fff;
+body {
+  font-family: "Times New Roman";
 }
 
-li a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-size: 14px;
+  color: #818181;
+  display: block;
 }
 
-/* Change the link and background color on hover */
-li a:hover {
-  background-color: #fff;
-  color: #FF10F0;
+.sidenav a:hover {
+  color: #ccff00;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 </style>
 </head>
 <body>
 
-<h2>Francesca Havelock</h2> href="index.html"
-
-<ul>
-  <li><a href="luckycharms.html">Lucky Charms</a></li>
-  <li><a href="text.html">text</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-
-</body>
-</html>
-
-<!--#crumbs=
-<div id='breadcrumb'>
-<ul>
-<li><a href='/default.asp'>Home</a></li>
-<li><a href='/css/default.asp'>CSS</a></li>
-<li><a href='/css/css_navbar.asp'>CSS Navbar</a></li>
-<li><a href='/css/css_navbar_vertical.asp'>Vertical Navbar</a></li>
-<li>Tryit: Gray vertical navbar</li>
-</ul>
+<div class="sidenav">
+  <a href="index.html">Francesca Havelock</a>
+  <p>
+  <a href="luckycharm.html"><i>Lucky Charms</i></a>
+  <a href="text.html"><i>Text</i></a>
+  <a href="sound.html"><i>Sound</i></a>
+  <p>
+  <a href="contact.html">Contact</a>
 </div>
--->
+
+<div class="main">
+  <h2>Sidebar</h2>
+  <p>This sidebar is of full height (100%) and always shown.</p>
+  <p>Scroll down the page to see the result.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
+   
+</body>
+</html> 
