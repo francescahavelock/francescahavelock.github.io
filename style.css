@@ -14,7 +14,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #F2EEDF;
+  background-color: #fff;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -35,7 +35,7 @@ body {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 14px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  background-color: #F2EEDF;
+  background-color: #fff;
 }
 
 @media screen and (max-height: 450px) {
