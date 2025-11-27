@@ -44,6 +44,12 @@ body {
 }
 
 a:link {
+  color: #7A0909;
+
+a:visited {
+  color: #ccff00;
+
+a:hover {
   color: #ccff00;
 }
 </style>
