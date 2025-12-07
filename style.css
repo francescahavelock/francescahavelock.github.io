@@ -38,20 +38,21 @@ body {
   background-color: #fff;
 }
 
+.main {
+  a:link 
+  color: #7A0909;
+  a:visited 
+  color: #ccff00;
+  a:hover 
+  color: #ccff00; 
+  }
+    
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 
-a:link {
-  color: #7A0909;
 
-a:visited {
-  color: #ccff00;
-
-a:hover {
-  color: #ccff00;
-}
 </style>
 </head>   
 </body>
