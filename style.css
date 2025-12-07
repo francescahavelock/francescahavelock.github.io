@@ -38,13 +38,13 @@ body {
   background-color: #fff;
 }
 
-.main { a:link 
+.main a:link {
   color: #7A0909;
       }
- .main { a:visited 
+ .main a:visited { 
   color: #ccff00;
        }
- .main { a:hover 
+ .main a:hover {
   color: #ccff00; 
   }
     
