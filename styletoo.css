@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
+<style> 
+
 body {
   font-family: "Times New Roman";
 }
@@ -13,12 +14,11 @@ div {
   padding-left: 80px;
 }
 
-@media screen and (max-height: 450px) {
-}
-
 
 </style>
+
 </head>   
+
 </body>
 
 </html> 
