@@ -15,7 +15,7 @@ body {
   color: black;
       }
  .main a:visited { 
-  color: black;
+  color: blue;
        }
  .main a:hover {
   color: #ccff00; 
