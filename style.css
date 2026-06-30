@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  font-family: "Times New Roman";
+
+.main {
+  margin-left: 80px; 
+  margin-right: 80px;
+  font-size: 14px; 
+  padding: 50px 10px;
+  background-color: #fff;
+}
+
+.main a:link {
+  color: black;
+      }
+ .main a:visited { 
+  color: black;
+       }
+ .main a:hover {
+  color: #ccff00; 
+  }
+  
+ .testbtn {
+  background-color: #FF0073;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
+}
+
+.testbtn:hover {
+  background-color: #873D5E;
+}
+
+</style>
+</head>   
+</body>
+
+</html> 
