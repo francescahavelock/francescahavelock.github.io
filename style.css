@@ -5,54 +5,39 @@
 <style>
 body {
   font-family: "Times New Roman";
-}
-
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 14px;
-  color: #452d2d;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #ccff00;
-}
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 14px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  margin-left: 80px; 
+  margin-right: 80px;
+  font-size: 14px; 
+  padding: 50px 10px;
   background-color: #fff;
 }
 
 .main a:link {
-  color: #7A0909;
+  color: black;
       }
  .main a:visited { 
-  color: #7A0909;
+  color: black;
        }
  .main a:hover {
   color: #ccff00; 
   }
-    
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  
+ .testbtn {
+  background-color: #FF0073;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
 }
 
+.testbtn:hover {
+  background-color: #873D5E;
+}
 
 </style>
 </head>   
